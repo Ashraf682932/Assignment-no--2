@@ -124,10 +124,11 @@ background: rgb(17, 17, 17);
 }
 .Our-stories{
     margin: 50px auto;
-    background: #fff;
+    
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgb(0 , 0, 0 ,0.1);
+    background: linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);;
 }
 .Stories-container{
     display: grid;
@@ -167,9 +168,25 @@ background: rgb(17, 17, 17);
  background: black;
  align-items: center;
  text-align: center;
+ justify-content: end;
 }
 @media (maxwidth:768px) {
    .Stories-container{
     grid-template-columns: 1fr;
    } 
+}
+.footer-logo{ 
+    display: flex;
+}
+.footer-ul{
+    text-decoration: none;
+}
+.footer-img
+{
+    display: flex;
+}
+.FOOTER{
+    justify-content: space-between;
+    display: flex;
+    background: rgb(1, 172, 253);
 }
