@@ -114,12 +114,62 @@ background: rgb(17, 17, 17);
     color: rgb(135, 0, 255);
 }
 /* responsive */
-@media screen and (max-width:556px) {
-    .Standard-curriculum
-    {
-        
-        flex-direction: column;
-       
-    }
+.Standard-curriculum {
     
+  
+    
+}
+.Standard{
+   
+}
+.Our-stories{
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgb(0 , 0, 0 ,0.1);
+}
+.Stories-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 15px;
+}
+.date{
+    display: inline-block;
+    padding: 5px 10px ;
+    font-size: 15px;
+    border-radius: 10px;
+    color: white;
+}
+.story-img{
+    width: 100%;
+    border-radius: 8px;
+}
+.date-blue{
+    background: #3b82f6;
+}
+.date-yellow{
+    background: #facc15;
+}
+.date-green{
+    background: #22c55e;
+
+}
+.light-green{
+    background: #84cc16;
+}
+.veiw-all{
+    padding: 10px 20px ;
+    color: white;
+    border: none;
+    border-radius: 5px;
+ background: black;
+ align-items: center;
+ text-align: center;
+}
+@media (maxwidth:768px) {
+   .Stories-container{
+    grid-template-columns: 1fr;
+   } 
 }
