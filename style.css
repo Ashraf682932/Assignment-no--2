@@ -1,0 +1,65 @@
+.font-family{
+    @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Manrope:wght@200..800&family=Quicksand:wght@300..700&family=Sora:wght@100..800&display=swap');
+}
+.logo{
+    display: flex;
+}
+.nav{
+    display: flex;
+    
+align-items: center;
+gap: 186;
+padding: 0px;
+margin: 10px 0px;
+}
+.nav-ul{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+
+}
+.nav-item{
+    text-decoration: none;
+}
+.nav-btn{
+    align-items: end;
+    text-align: end;
+   gap: 500px;
+}
+.hero{
+    display: flex;
+    padding: 20px 20px 20px 20px  ;
+}
+.h-1kids{
+    font-size: 56px;
+font-weight: 700;
+line-height: 61px;
+}
+.kids-p{
+    font-size: 20px;
+font-weight: 400;
+line-height: 25px;
+}
+.kids-btn{
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+
+background: rgb(17, 17, 17);
+}
+.span-1{
+    color: rgb(254, 163, 1);;
+}
+.span-2{
+    color:  rgb(1, 172, 253);;
+} 
+/* responsive */
+@media screen and (max-width: 556px) {
+    .hero-kids , .hero-img
+    {
+        flex-direction: column;
+    }
+}
